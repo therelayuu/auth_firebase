@@ -69,8 +69,6 @@ class SigninViewController: UIViewController {
                             self.errorLabel.text = "error saving user in database"
                         }
                     }
-                    
-                    print("Sign In complete!")
                 }
             }
         }
