@@ -23,7 +23,7 @@
 
 /* Begin PBXFileReference section */
 		24F2396D283CFB26BECD28F9 /* Pods-database.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-database.release.xcconfig"; path = "Target Support Files/Pods-database/Pods-database.release.xcconfig"; sourceTree = "<group>"; };
-		6B3A18CE24289EDB0009DB84 /* database.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = database.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B3A18CE24289EDB0009DB84 /* LogIn App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LogIn App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B3A18D124289EDC0009DB84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B3A18D324289EDC0009DB84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6B3A18D524289EDC0009DB84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		6B3A18CF24289EDB0009DB84 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6B3A18CE24289EDB0009DB84 /* database.app */,
+				6B3A18CE24289EDB0009DB84 /* LogIn App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,7 +125,7 @@
 			);
 			name = database;
 			productName = database;
-			productReference = 6B3A18CE24289EDB0009DB84 /* database.app */;
+			productReference = 6B3A18CE24289EDB0009DB84 /* LogIn App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -381,7 +381,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kekdevs.database;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "LogIn App";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -400,7 +400,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kekdevs.database;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "LogIn App";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
